@@ -1,0 +1,136 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long": "Get in {{touch}}"
+            },
+            "fr": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long": "Me {{contacter}}"
+            },
+            "ar": {
+                "title_short": "التواصل",
+                "title_short_nav": "التواصل",
+                "title_long": "{{تواصلوا}} معي"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-regular fa-envelope",
+                    "label": "jhablichayma@gmail.com",
+                    "link": {
+                        "href": "mailto:jhablichayma@gmail.com",
+                        "tooltipString": "email_me"
+                    },
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {
+                            "title": "Email"
+                        },
+                        "fr": {
+                            "title": "E-mail"
+                        },
+                        "ar": {
+                            "title": "البريد الإلكتروني"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-phone",
+                    "label": "+33 7 48 25 25 28",
+                    "link": {
+                        "href": "tel:+33748252528",
+                        "tooltipString": "call_me"
+                    },
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {
+                            "title": "Phone (France)"
+                        },
+                        "fr": {
+                            "title": "Téléphone (France)"
+                        },
+                        "ar": {
+                            "title": "الهاتف (فرنسا)"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-phone",
+                    "label": "+212 609-167554",
+                    "link": {
+                        "href": "tel:+212609167554",
+                        "tooltipString": "call_me"
+                    },
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {
+                            "title": "Phone (Morocco)"
+                        },
+                        "fr": {
+                            "title": "Téléphone (Maroc)"
+                        },
+                        "ar": {
+                            "title": "الهاتف (المغرب)"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "label": "chayma-jhabli",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/chayma-jhabli",
+                        "tooltipString": "view_linkedin"
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "LinkedIn"
+                        },
+                        "fr": {
+                            "title": "LinkedIn"
+                        },
+                        "ar": {
+                            "title": "LinkedIn"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-location-dot",
+                    "locales": {
+                        "en": {
+                            "title": "Location",
+                            "text": "Paris, France or Casablanca, Morocco"
+                        },
+                        "fr": {
+                            "title": "Localisation",
+                            "text": "Paris, France ou Casablanca, Maroc"
+                        },
+                        "ar": {
+                            "title": "الموقع",
+                            "text": "باريس، فرنسا أو الدار البيضاء، المغرب"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long": "{{Skills}}"
+            },
+            "fr": {
+                "title_short": "Compétences",
+                "title_short_nav": "Compétences",
+                "title_long": "{{Compétences}}"
+            },
+            "ar": {
+                "title_short": "المهارات",
+                "title_short_nav": "المهارات",
+                "title_long": "{{المهارات}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-brain",
+                    "locales": {
+                        "en": {
+                            "title": "Programming & AI",
+                            "text": "Python, machine learning, deep learning, Transformers, PyTorch, Hugging Face, LLMs, VLMs, and LoRA fine-tuning."
+                        },
+                        "fr": {
+                            "title": "Programmation et IA",
+                            "text": "Python, machine learning, deep learning, Transformers, PyTorch, Hugging Face, modèles de langage et de vision-langage (LLM et VLM), et ajustement fin avec LoRA."
+                        },
+                        "ar": {
+                            "title": "البرمجة والذكاء الاصطناعي",
+                            "text": "<bdi>Python</bdi>، والتعلّم الآلي، والتعلّم العميق، و<bdi>Transformers</bdi>، و<bdi>PyTorch</bdi>، و<bdi>Hugging Face</bdi>، والنماذج اللغوية ونماذج الرؤية واللغة، والضبط الدقيق باستخدام <bdi>LoRA</bdi>."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "locales": {
+                        "en": {
+                            "title": "Data Science",
+                            "text": "Pandas, NumPy, SQL, NoSQL, data analysis, Power BI, Excel, and Seaborn."
+                        },
+                        "fr": {
+                            "title": "Science des données",
+                            "text": "Pandas, NumPy, SQL, NoSQL, analyse de données, Power BI, Excel et Seaborn."
+                        },
+                        "ar": {
+                            "title": "علم البيانات",
+                            "text": "<bdi>Pandas</bdi>، و<bdi>NumPy</bdi>، و<bdi>SQL</bdi>، و<bdi>NoSQL</bdi>، وتحليل البيانات، و<bdi>Power BI</bdi>، و<bdi>Excel</bdi>، و<bdi>Seaborn</bdi>."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-server",
+                    "locales": {
+                        "en": {
+                            "title": "Systems & Infrastructure",
+                            "text": "Docker, Linux, Windows, SLURM clusters, and cloud environments."
+                        },
+                        "fr": {
+                            "title": "Systèmes et infrastructure",
+                            "text": "Docker, Linux, Windows, clusters SLURM et environnements cloud."
+                        },
+                        "ar": {
+                            "title": "الأنظمة والبنية التحتية",
+                            "text": "<bdi>Docker</bdi>، و<bdi>Linux</bdi>، و<bdi>Windows</bdi>، وعناقيد <bdi>SLURM</bdi>، والبيئات السحابية."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-gears",
+                    "locales": {
+                        "en": {
+                            "title": "Workflow Automation",
+                            "text": "Power Automate, database systems, and big data pipelines."
+                        },
+                        "fr": {
+                            "title": "Automatisation des processus",
+                            "text": "Power Automate, systèmes de bases de données et pipelines de données massives."
+                        },
+                        "ar": {
+                            "title": "أتمتة سير العمل",
+                            "text": "<bdi>Power Automate</bdi>، وأنظمة قواعد البيانات، وخطوط معالجة البيانات الضخمة."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-people-group",
+                    "locales": {
+                        "en": {
+                            "title": "Interpersonal Skills",
+                            "text": "Communication and collaboration."
+                        },
+                        "fr": {
+                            "title": "Compétences relationnelles",
+                            "text": "Communication et collaboration."
+                        },
+                        "ar": {
+                            "title": "المهارات الشخصية",
+                            "text": "التواصل والتعاون."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                },
+                "fr": {
+                    "title": "Langues"
+                },
+                "ar": {
+                    "title": "اللغات"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "locales": {
+                        "en": {
+                            "title": "Arabic",
+                            "text": "Native"
+                        },
+                        "fr": {
+                            "title": "Arabe",
+                            "text": "Langue maternelle"
+                        },
+                        "ar": {
+                            "title": "العربية",
+                            "text": "اللغة الأم"
+                        }
+                    },
+                    "img": "images/flags/ar-ma.png"
+                },
+                {
+                    "id": 2,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Proficient"
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "text": "Maîtrise professionnelle"
+                        },
+                        "ar": {
+                            "title": "الإنجليزية",
+                            "text": "إتقان مهني"
+                        }
+                    },
+                    "img": "images/flags/en-uk.png"
+                },
+                {
+                    "id": 3,
+                    "locales": {
+                        "en": {
+                            "title": "French",
+                            "text": "Proficient"
+                        },
+                        "fr": {
+                            "title": "Français",
+                            "text": "Maîtrise professionnelle"
+                        },
+                        "ar": {
+                            "title": "الفرنسية",
+                            "text": "إتقان مهني"
+                        }
+                    },
+                    "img": "images/flags/fr.png"
+                },
+                {
+                    "id": 4,
+                    "locales": {
+                        "en": {
+                            "title": "Spanish",
+                            "text": "Beginner"
+                        },
+                        "fr": {
+                            "title": "Espagnol",
+                            "text": "Niveau débutant"
+                        },
+                        "ar": {
+                            "title": "الإسبانية",
+                            "text": "مستوى مبتدئ"
+                        }
+                    },
+                    "img": "images/flags/es.png"
+                }
+            ]
+        }
+    ]
+}

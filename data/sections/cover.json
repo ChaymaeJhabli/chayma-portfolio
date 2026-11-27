@@ -1,0 +1,285 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "I’m {{Chayma Jhabli}}",
+                "title_short_nav": "About me",
+                "title_long": "I’m {{Chayma Jhabli}}",
+                "title_long_prefix": "Hello…"
+            },
+            "fr": {
+                "title_short": "Je suis {{Chayma Jhabli}}",
+                "title_short_nav": "À propos",
+                "title_long": "Je suis {{Chayma Jhabli}}",
+                "title_long_prefix": "Bonjour…"
+            },
+            "ar": {
+                "title_short": "أنا {{شيماء الجهبلي}}",
+                "title_short_nav": "نبذة عني",
+                "title_long": "أنا {{شيماء الجهبلي}}",
+                "title_long_prefix": "مرحبًا…"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 640
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "pi pi-map-marker",
+                    "locales": {
+                        "en": {
+                            "label": "Paris, France or Casablanca, Morocco"
+                        },
+                        "fr": {
+                            "label": "Paris, France ou Casablanca, Maroc"
+                        },
+                        "ar": {
+                            "label": "باريس، فرنسا أو الدار البيضاء، المغرب"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "label": "LinkedIn",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/chayma-jhabli",
+                        "tooltipString": "view_linkedin"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "Data and Machine Learning Engineer"
+                },
+                "fr": {
+                    "title": "Ingénieure en données et apprentissage automatique"
+                },
+                "ar": {
+                    "title": "مهندسة بيانات وتعلّم آلي"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "locales": {
+                        "en": {
+                            "text": "<p>I develop {{AI solutions}} and optimize the data systems that support them. At Orange Innovation, adding visual context improved LLM response quality by [[25%]]. At OR2S, redesigning the database cut query time by [[93%]].</p><p>I work with Python, PyTorch, Hugging Face, and SQL. My internships also gave me hands-on experience automating reporting and building dashboards for operational teams.</p>",
+                            "title": "Illustration of a computer screen"
+                        },
+                        "fr": {
+                            "text": "<p>Je développe des {{solutions d’intelligence artificielle}} et j’optimise les systèmes de données qui les alimentent. Chez Orange Innovation, l’ajout de contexte visuel a amélioré la qualité des réponses d’un LLM de [[25 %]]. À l’OR2S, la refonte de la base de données a réduit le temps de requête de [[93 %]].</p><p>J’utilise Python, PyTorch, Hugging Face et SQL. Mes stages m’ont également permis d’automatiser la production de rapports et de concevoir des tableaux de bord pour des équipes opérationnelles.</p>",
+                            "title": "Illustration d’un écran d’ordinateur"
+                        },
+                        "ar": {
+                            "text": "<p>أطوّر {{حلول الذكاء الاصطناعي}} وأحسّن أنظمة البيانات التي تدعمها. في أورنج للابتكار، حسّن إدماج السياق البصري جودة إجابات نموذج لغوي كبير بنسبة [[٢٥٪]]. وفي المرصد الإقليمي للصحة والشؤون الاجتماعية، قلّلت إعادة تصميم قاعدة البيانات زمن الاستعلام بنسبة [[٩٣٪]].</p><p>أستخدم <bdi>Python</bdi> و<bdi>PyTorch</bdi> و<bdi>Hugging Face</bdi> و<bdi>SQL</bdi>. واكتسبت خلال فترات التدريب خبرة في أتمتة التقارير وبناء لوحات المعلومات لفرق العمليات.</p>",
+                            "title": "رسم توضيحي لشاشة حاسوب"
+                        }
+                    },
+                    "img": "images/pictures/about-texts-image-1.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {
+                    "title": "{{Testimonials}}"
+                },
+                "fr": {
+                    "title": "{{Témoignages}}"
+                },
+                "ar": {
+                    "title": "{{الشهادات}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Fabrice Bourge",
+                    "faIcon": "fa-solid fa-flask",
+                    "faIconColors": {
+                        "bg": "#4b2a14",
+                        "fill": "#ffab69",
+                        "bgLight": "#ffe4ce",
+                        "fillLight": "#8a3b08"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Researcher at [[Orange Innovation]]",
+                            "text": "Chayma showed a strong ability to understand requirements quickly and identify problems. She has a genuine interest in exploratory work and knows how to organize and prioritize tasks in a changing research environment.",
+                            "details": "<p>Dear Sir or Madam,</p><p>As a researcher at Orange Innovation, I had the pleasure of supervising Chayma Jhabli’s six-month internship in Caen from February to July 2025 as part of a research project in the field of “Smart Working”.</p><p>The internship, titled “Contextualizing questions posed to generative AI”, involved using screenshots taken on a consenting employee’s workstation. The aim was to summarize the employee’s current activity and pass that summary as context when the employee asked a generative AI system a question. The ultimate goal was to measure whether this improved the responses of these systems.</p><p>Within the time available, Chayma worked with the research team to define the requirements, reviewed AI models that could meet them, proposed a pipeline, and configured the tools needed for the work, including the uv dependency manager, Visual Studio Code, CUDA GPU acceleration, and GitLab. She implemented activity context extraction using Phi-4-Multimodal-Instruct and LoRA fine-tuning, evaluated its performance using SPICE, BERTScore, ROUGE-1, and STS, and wrote documentation to help the project team take over at the end of the internship.</p><p>Chayma showed a strong ability to understand requirements quickly and identify problems. She has a genuine interest in exploratory work and knows how to organize and prioritize tasks in a changing research environment.</p><p>The internship turned out to be more complex than initially expected. Chayma knew when to ask colleagues for help with technical problems, particularly those stemming from a complex network environment and outside the core AI work of her internship.</p><p>Chayma’s AI skills allowed her to work with increasing independence. She was at ease working in a team, and her creativity helped her put forward ideas. She readily presented her work to peers and to colleagues who were new to the subject. She also contributed enthusiastically to project and management coordination meetings. She was friendly, cheerful, and motivated throughout the internship. I wish her every success in her career.</p><p>Sincerely,<br>Fabrice Bourge</p>"
+                        },
+                        "fr": {
+                            "title": "Chercheur chez [[Orange Innovation]]",
+                            "text": "Chayma a ainsi montré une grande aptitude à comprendre rapidement les besoins et identifier les problèmes. Elle possède un réel goût pour le travail exploratoire, qui va de pair avec sa capacité à s’organiser et prioriser les tâches dans l’environnement mouvant d’un projet de recherche.",
+                            "details": "<p>Madame, Monsieur,</p><p>En tant que chercheur au sein d’Orange Innovation, j’ai eu le plaisir d’encadrer le stage de Chayma Jhabli qui s’est déroulé à Caen de février à juillet 2025 (six mois) dans le cadre d’un projet de recherche sur le domaine du « Smart Working ».</p><p>Le stage intitulé « contextualisation des questions posées à une IA générative » consistait à exploiter des captures d’écran réalisées sur le poste de travail d’un salarié ayant donné son consentement, afin d’en extraire une synthèse de l’activité courante pour la transmettre en contexte d’appel à une IA générative lorsque ce salarié interroge celle-ci. Le but était in fine de pouvoir mesurer si ceci améliore les réponses de ces IA génératives.</p><p>Dans le temps imparti, Chayma a tour à tour co-établi avec l’équipe de recherche le cahier des charges, réalisé un état de l’art sur les modèles d’IA pouvant répondre aux exigences demandées, proposé un pipeline pour la solution envisagée, configuré les outils nécessaires (gestionnaire de dépendances UV, Visual Studio Code, accélération GPU via Cuda, GitLab), implémenté la solution d’extraction du contexte d’activité (modèle Phi-4-Multimodal-Instruct, fine-tuning avec LoRa), évalué ses performances (métriques SPICE, BERTScore, ROUGE-1, STS) et rédigé une documentation pour faciliter le transfert de compétences vers l’équipe projet à l’issue du stage.</p><p>Chayma a ainsi montré une grande aptitude à comprendre rapidement les besoins et identifier les problèmes. Elle possède un réel goût pour le travail exploratoire, qui va de pair avec sa capacité à s’organiser et prioriser les tâches dans l’environnement mouvant d’un projet de recherche.</p><p>Face à ce sujet de stage qui s’est révélé plus complexe qu’initialement imaginé, Chayma a su faire appel à des collègues de travail pour l’aider à résoudre des difficultés techniques rencontrées, notamment liées à un environnement réseau complexe, lesquelles difficultés étaient en marge du cœur IA de son stage.</p><p>En complément, Chayma a démontré les qualités suivantes : ses compétences en IA lui ont permis de travailler avec une autonomie croissante, elle s’est révélée très à l’aise avec le travail en équipe, sa créativité lui permettant d’être force propositions. Elle n’a pas hésité à présenter son travail à ses pairs ainsi qu’à des collègues néophytes. Elle a aussi contribué aux réunions de synchronisation d’équipe projet et managériales avec enthousiasme. En outre, c’est une personne sympathique, joviale et qui est restée motivée tout au long du stage. Je lui souhaite un excellent avenir professionnel.</p><p>Cordialement,<br>Fabrice Bourge</p>"
+                        },
+                        "ar": {
+                            "title": "باحث في [[أورنج للابتكار]]",
+                            "text": "أظهرت شيماء قدرة كبيرة على فهم الاحتياجات بسرعة وتحديد المشكلات. وهي تستمتع بالعمل الاستكشافي وتُحسن تنظيم مهامها وترتيب أولوياتها في بيئة بحثية متغيّرة.",
+                            "details": "<p>السيدات والسادة،</p><p>بصفتي باحثًا في أورنج للابتكار، سعدت بالإشراف على تدريب شيماء الجهبلي في مدينة كان من فبراير إلى يوليو ٢٠٢٥، لمدة ستة أشهر، ضمن مشروع بحثي حول العمل الذكي.</p><p>كان موضوع التدريب «إضافة السياق إلى الأسئلة الموجّهة إلى الذكاء الاصطناعي التوليدي». اعتمد المشروع على لقطات شاشة من حاسوب موظف وافق على المشاركة، لاستخلاص ملخص لنشاطه الجاري وإرساله سياقًا إضافيًا عند طرح سؤال على النظام. وكان الهدف النهائي قياس أثر ذلك على جودة الإجابات.</p><p>خلال الفترة المحددة، شاركت شيماء فريق البحث في تحديد المتطلبات، وراجعت نماذج الذكاء الاصطناعي القادرة على تلبيتها، واقترحت مسارًا للمعالجة وهيّأت أدوات العمل، ومنها مدير الاعتماديات <bdi>uv</bdi> و<bdi>Visual Studio Code</bdi> وتسريع المعالجة عبر <bdi>CUDA</bdi> و<bdi>GitLab</bdi>. ونفّذت آلية استخلاص سياق النشاط باستخدام نموذج <bdi>Phi-4-Multimodal-Instruct</bdi> والضبط الدقيق بتقنية <bdi>LoRA</bdi>، وقيّمت أداءها بمقاييس <bdi>SPICE</bdi> و<bdi>BERTScore</bdi> و<bdi>ROUGE-1</bdi> و<bdi>STS</bdi>. كما أعدّت وثائق لتيسير نقل المعرفة إلى فريق المشروع عند انتهاء التدريب.</p><p>أظهرت شيماء قدرة كبيرة على فهم الاحتياجات بسرعة وتحديد المشكلات. وهي تستمتع بالعمل الاستكشافي وتُحسن تنظيم مهامها وترتيب أولوياتها في بيئة بحثية متغيّرة.</p><p>اتّضح أن موضوع التدريب أعقد مما كان متوقعًا. واستعانت شيماء بزملائها لتجاوز صعوبات تقنية، ولا سيما ما تعلّق ببيئة الشبكة المعقّدة خارج صلب عملها في الذكاء الاصطناعي.</p><p>مكّنتها مهاراتها في الذكاء الاصطناعي من العمل باستقلالية متزايدة. وعملت بارتياح ضمن الفريق، وأسهم إبداعها في تقديم الأفكار والمقترحات. وقدّمت عملها لزملاء متخصصين وآخرين جدد على الموضوع، وشاركت بحماس في اجتماعات التنسيق مع فريق المشروع والإدارة. وكانت ودودة ومرحة وحافظت على حماسها طوال فترة التدريب. أتمنى لها كل التوفيق في مسيرتها المهنية.</p><p>مع خالص التحية،<br><bdi>Fabrice Bourge</bdi></p>"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/testimonial-person-female-1.png",
+                    "locales": {
+                        "en": {
+                            "label": "Chaymae Ajjaji",
+                            "title": "Data engineering colleague",
+                            "text": "Chayma mapped out where our slowest queries came from and explained how the database redesign would change the way analysts accessed the data."
+                        },
+                        "fr": {
+                            "label": "Chaymae Ajjaji",
+                            "title": "Collègue en ingénierie des données",
+                            "text": "Chayma a identifié l’origine de nos requêtes les plus lentes et expliqué comment la refonte de la base de données faciliterait le travail des analystes."
+                        },
+                        "ar": {
+                            "label": "شيماء اجّاجي",
+                            "title": "زميلة في هندسة البيانات",
+                            "text": "حدّدت شيماء أسباب بطء الاستعلامات وشرحت كيف ستسهّل إعادة تصميم قاعدة البيانات وصول المحللين إلى البيانات."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "locales": {
+                        "en": {
+                            "label": "Papa Touré",
+                            "title": "Analytics colleague",
+                            "text": "Chayma took the time to understand our billing routine. Her dashboards helped us spot discrepancies and gave us a clearer picture of each reporting period."
+                        },
+                        "fr": {
+                            "label": "Papa Touré",
+                            "title": "Collègue en analyse de données",
+                            "text": "Chayma a pris le temps de comprendre notre processus de facturation. Ses tableaux de bord nous ont aidés à repérer les écarts et à mieux suivre chaque période."
+                        },
+                        "ar": {
+                            "label": "بابا توريه",
+                            "title": "زميل في تحليل البيانات",
+                            "text": "أخذت شيماء الوقت الكافي لفهم إجراءات الفوترة لدينا. وساعدتنا لوحات المعلومات التي صممتها على رصد الفروقات ومتابعة كل فترة بوضوح."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "locales": {
+                "en": {
+                    "title": "Personal {{interests}}"
+                },
+                "fr": {
+                    "title": "Centres d’{{intérêt}}"
+                },
+                "ar": {
+                    "title": "{{الاهتمامات}} الشخصية"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-eye",
+                    "locales": {
+                        "en": {
+                            "title": "Multimodal {{AI}}",
+                            "text": "Exploring how models combine images and language to answer questions."
+                        },
+                        "fr": {
+                            "title": "{{IA}} multimodale",
+                            "text": "Explorer comment les modèles associent images et langage pour répondre à des questions."
+                        },
+                        "ar": {
+                            "title": "الذكاء الاصطناعي {{متعدد الوسائط}}",
+                            "text": "استكشاف كيفية الجمع بين الصور واللغة للإجابة عن الأسئلة."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-chart-column",
+                    "locales": {
+                        "en": {
+                            "title": "Data {{visualization}}",
+                            "text": "Designing dashboards that make trends and exceptions easy to spot."
+                        },
+                        "fr": {
+                            "title": "{{Visualisation}} de données",
+                            "text": "Concevoir des tableaux de bord qui facilitent le repérage des tendances et des anomalies."
+                        },
+                        "ar": {
+                            "title": "{{تصوير}} البيانات",
+                            "text": "تصميم لوحات معلومات تسهّل ملاحظة الاتجاهات والحالات الاستثنائية."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-database",
+                    "locales": {
+                        "en": {
+                            "title": "Database {{performance}}",
+                            "text": "Investigating why queries slow down and how data models can help."
+                        },
+                        "fr": {
+                            "title": "{{Performance}} des bases de données",
+                            "text": "Comprendre pourquoi les requêtes ralentissent et comment la modélisation peut y remédier."
+                        },
+                        "ar": {
+                            "title": "{{أداء}} قواعد البيانات",
+                            "text": "فهم أسباب بطء الاستعلامات وكيف يمكن لنمذجة البيانات تحسين أدائها."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-gears",
+                    "locales": {
+                        "en": {
+                            "title": "Workflow {{automation}}",
+                            "text": "Automating recurring reports and repetitive data tasks."
+                        },
+                        "fr": {
+                            "title": "{{Automatisation}} des processus",
+                            "text": "Automatiser la production de rapports récurrents et les tâches répétitives liées aux données."
+                        },
+                        "ar": {
+                            "title": "{{أتمتة}} سير العمل",
+                            "text": "أتمتة إعداد التقارير الدورية والمهام المتكررة المتعلقة بالبيانات."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

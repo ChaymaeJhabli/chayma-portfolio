@@ -1,0 +1,32 @@
+{
+    "name": "Chayma Jhabli",
+    "profilePictureUrl": "images/pictures/chayma-picture.png",
+    "resumePdfUrl": "pdf/resume.pdf",
+    "statusCircleVisible": false,
+    "locales": {
+        "en": {
+            "localized_name": "Chayma Jhabli",
+            "localized_name_stylized": "Chayma {{Jhabli}}",
+            "roles": [
+                "Data and Machine Learning Engineer"
+            ],
+            "name_pronunciation_audio_url": "audio/chayma-name-en.mp3"
+        },
+        "fr": {
+            "localized_name": "Chayma Jhabli",
+            "localized_name_stylized": "Chayma {{Jhabli}}",
+            "roles": [
+                "Ingénieure en données et apprentissage automatique"
+            ],
+            "name_pronunciation_audio_url": "audio/chayma-name-en.mp3"
+        },
+        "ar": {
+            "localized_name": "شيماء الجهبلي",
+            "localized_name_stylized": "شيماء {{الجهبلي}}",
+            "roles": [
+                "مهندسة بيانات وتعلّم آلي"
+            ],
+            "name_pronunciation_audio_url": "audio/chayma-name-ar.mp3"
+        }
+    }
+}
