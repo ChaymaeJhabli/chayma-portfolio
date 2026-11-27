@@ -1,0 +1,64 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {
+                    "title": "Home"
+                },
+                "fr": {
+                    "title": "Accueil"
+                },
+                "ar": {
+                    "title": "الرئيسية"
+                }
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {
+                    "title": "Career"
+                },
+                "fr": {
+                    "title": "Parcours"
+                },
+                "ar": {
+                    "title": "المسار"
+                }
+            }
+        },
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": {
+                    "title": "Expertise"
+                },
+                "fr": {
+                    "title": "Expertise"
+                },
+                "ar": {
+                    "title": "الخبرات"
+                }
+            }
+        },
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": {
+                    "title": "Contact"
+                },
+                "fr": {
+                    "title": "Contact"
+                },
+                "ar": {
+                    "title": "التواصل"
+                }
+            }
+        }
+    ]
+}

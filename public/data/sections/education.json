@@ -1,0 +1,138 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long": "{{Education}}"
+            },
+            "fr": {
+                "title_short": "Formation",
+                "title_short_nav": "Formation",
+                "title_long": "{{Formation}}"
+            },
+            "ar": {
+                "title_short": "التعليم",
+                "title_short_nav": "التعليم",
+                "title_long": "{{التعليم}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Engineering Degree in Data Science and Machine Learning",
+                            "institution": "INSA Rouen Normandie"
+                        },
+                        "fr": {
+                            "title": "Diplôme d’ingénieure en science des données et apprentissage automatique",
+                            "institution": "INSA Rouen Normandie"
+                        },
+                        "ar": {
+                            "title": "دبلوم مهندسة في علم البيانات والتعلّم الآلي",
+                            "institution": "المعهد الوطني للعلوم التطبيقية في روان نورماندي (INSA)"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 7
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Computer Science Engineering Degree",
+                            "institution": "École Nationale Supérieure des Mines de Rabat"
+                        },
+                        "fr": {
+                            "title": "Diplôme d’ingénieure en informatique",
+                            "institution": "École Nationale Supérieure des Mines de Rabat"
+                        },
+                        "ar": {
+                            "title": "دبلوم مهندسة في هندسة الحاسوب",
+                            "institution": "المدرسة الوطنية العليا للمناجم بالرباط"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "dateStart": {
+                        "year": 2019,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2021,
+                        "month": 7
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Preparatory Classes (CPGE)",
+                            "text": "Mathematics, Physics, and Engineering Science"
+                        },
+                        "fr": {
+                            "title": "Classes préparatoires aux grandes écoles (CPGE)",
+                            "text": "Mathématiques, physique et sciences de l’ingénieur"
+                        },
+                        "ar": {
+                            "title": "الأقسام التحضيرية للمدارس العليا (CPGE)",
+                            "text": "الرياضيات والفيزياء وعلوم المهندس"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "dateStart": {
+                        "year": 2017,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2019,
+                        "month": 7
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Baccalaureate in Mathematical Sciences",
+                            "institution": "Princess Lalla Salma High School"
+                        },
+                        "fr": {
+                            "title": "Baccalauréat en sciences mathématiques",
+                            "institution": "Lycée Princesse Lalla Salma"
+                        },
+                        "ar": {
+                            "title": "البكالوريا في العلوم الرياضية",
+                            "institution": "ثانوية الأميرة للا سلمى"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,279 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long": "Professional {{experience}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long": "Expérience {{professionnelle}}"
+            },
+            "ar": {
+                "title_short": "الخبرة",
+                "title_short_nav": "الخبرة",
+                "title_long": "الخبرة {{المهنية}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-robot",
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 2
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data Science and AI Intern",
+                            "institution": "Orange Innovation",
+                            "province": "Caen",
+                            "country": "France",
+                            "text": "Developed a system that enriches queries to a large language model with context extracted from images.",
+                            "list": [
+                                "Used vision-language models to extract visual context and improve the relevance of LLM responses.",
+                                "Created and annotated a multimodal dataset for training and evaluation."
+                            ],
+                            "tags": [
+                                "Pixtral",
+                                "BLIP-2",
+                                "Phi-4",
+                                "Hugging Face",
+                                "Transformers",
+                                "PyTorch",
+                                "CUDA",
+                                "OCR",
+                                "GitLab",
+                                "WSL",
+                                "Python"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Stagiaire en science des données et IA",
+                            "institution": "Orange Innovation",
+                            "province": "Caen",
+                            "country": "France",
+                            "text": "Développement d’un système qui enrichit les requêtes adressées à un grand modèle de langage avec du contexte extrait d’images.",
+                            "list": [
+                                "Utilisation de modèles vision-langage pour extraire le contexte visuel et améliorer la pertinence des réponses du LLM.",
+                                "Création et annotation d’un jeu de données multimodal pour l’entraînement et l’évaluation."
+                            ],
+                            "tags": [
+                                "Pixtral",
+                                "BLIP-2",
+                                "Phi-4",
+                                "Hugging Face",
+                                "Transformers",
+                                "PyTorch",
+                                "CUDA",
+                                "OCR",
+                                "GitLab",
+                                "WSL",
+                                "Python"
+                            ]
+                        },
+                        "ar": {
+                            "title": "متدربة في علم البيانات والذكاء الاصطناعي",
+                            "institution": "أورنج للابتكار",
+                            "province": "كان",
+                            "country": "فرنسا",
+                            "text": "طوّرت نظامًا يُغني الاستعلامات الموجّهة إلى نموذج لغوي كبير بسياق مستخرج من الصور.",
+                            "list": [
+                                "استخدمت نماذج الرؤية واللغة لاستخراج السياق البصري وتحسين صلة إجابات النموذج بالاستعلام.",
+                                "أنشأت مجموعة بيانات متعددة الوسائط ووسمتها لأغراض التدريب والتقييم."
+                            ],
+                            "tags": [
+                                "Pixtral",
+                                "BLIP-2",
+                                "Phi-4",
+                                "Hugging Face",
+                                "Transformers",
+                                "PyTorch",
+                                "CUDA",
+                                "OCR",
+                                "GitLab",
+                                "WSL",
+                                "Python"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-database",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 1
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data Engineering Apprentice",
+                            "institution": "OR2S · Regional Health and Social Affairs Observatory",
+                            "province": "Rouen",
+                            "country": "France",
+                            "text": "Worked on a data engineering project through the INSA Certified Project (PIC) partnership.",
+                            "list": [
+                                "Redesigned and optimized the OR2S database, improving data access and query performance.",
+                                "Built a machine learning system that computes spatiotemporal indicators in real time in a big data environment."
+                            ],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Alternante en ingénierie des données",
+                            "institution": "OR2S · Observatoire régional de la santé et du social",
+                            "province": "Rouen",
+                            "country": "France",
+                            "text": "Projet mené dans le cadre du partenariat INSA Projet certifié (PIC).",
+                            "list": [
+                                "Refonte et optimisation de la base de données de l’OR2S pour faciliter l’accès aux données et accélérer les requêtes.",
+                                "Développement d’un système de machine learning qui calcule des indicateurs spatiotemporels en temps réel dans un environnement de données massives."
+                            ],
+                            "tags": []
+                        },
+                        "ar": {
+                            "title": "متدربة في هندسة البيانات بنظام التناوب",
+                            "institution": "المرصد الإقليمي للصحة والشؤون الاجتماعية (OR2S)",
+                            "province": "روان",
+                            "country": "فرنسا",
+                            "text": "نفّذت المشروع ضمن شراكة المشاريع المعتمدة في INSA ‏(PIC).",
+                            "list": [
+                                "أعدت تصميم قاعدة بيانات المرصد وحسّنت أداءها لتسهيل الوصول إلى البيانات وتسريع الاستعلامات.",
+                                "بنيت نظام تعلّم آلي لحساب مؤشرات مكانية وزمانية في الوقت الفعلي ضمن بيئة بيانات ضخمة."
+                            ],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-column",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 6
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data Analyst Intern",
+                            "institution": "Brink’s Inc.",
+                            "province": "Casablanca",
+                            "country": "Morocco",
+                            "text": "Developed an automated solution for generating, distributing, and analyzing billing reports.",
+                            "list": [
+                                "Built Power BI dashboards to support decisions and used Power Automate to streamline billing workflows."
+                            ],
+                            "tags": [
+                                "Power BI",
+                                "Power Automate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Stagiaire en analyse de données",
+                            "institution": "Brink’s Inc.",
+                            "province": "Casablanca",
+                            "country": "Maroc",
+                            "text": "Développement d’une solution automatisée de génération, de diffusion et d’analyse des rapports de facturation.",
+                            "list": [
+                                "Création de tableaux de bord Power BI pour faciliter la prise de décision et automatisation des flux de facturation avec Power Automate."
+                            ],
+                            "tags": [
+                                "Power BI",
+                                "Power Automate"
+                            ]
+                        },
+                        "ar": {
+                            "title": "متدربة في تحليل البيانات",
+                            "institution": "Brink’s Inc.",
+                            "province": "الدار البيضاء",
+                            "country": "المغرب",
+                            "text": "طوّرت حلًا آليًا لإنشاء تقارير الفوترة وتوزيعها وتحليلها.",
+                            "list": [
+                                "أنشأت لوحات معلومات باستخدام Power BI لدعم اتخاذ القرار وبسّطت إجراءات الفوترة باستخدام Power Automate."
+                            ],
+                            "tags": [
+                                "Power BI",
+                                "Power Automate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-code",
+                    "dateStart": {
+                        "year": 2022,
+                        "month": 7
+                    },
+                    "dateEnd": {
+                        "year": 2022,
+                        "month": 8
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web Development Intern",
+                            "institution": "Moulay Ismaïl University · Faculty of Sciences",
+                            "province": "Meknès",
+                            "country": "Morocco",
+                            "text": "Built a PHP web application on Linux and integrated Auto Multiple Choice (AMC) to simplify exam creation for faculty staff.",
+                            "list": [],
+                            "tags": [
+                                "PHP",
+                                "Linux",
+                                "AMC"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Stagiaire en développement web",
+                            "institution": "Université Moulay Ismaïl · Faculté des sciences",
+                            "province": "Meknès",
+                            "country": "Maroc",
+                            "text": "Développement d’une application web en PHP sous Linux et intégration d’Auto Multiple Choice (AMC) pour simplifier la création d’examens par le personnel de la faculté.",
+                            "list": [],
+                            "tags": [
+                                "PHP",
+                                "Linux",
+                                "AMC"
+                            ]
+                        },
+                        "ar": {
+                            "title": "متدربة في تطوير الويب",
+                            "institution": "جامعة مولاي إسماعيل · كلية العلوم",
+                            "province": "مكناس",
+                            "country": "المغرب",
+                            "text": "طوّرت تطبيق ويب بلغة PHP على Linux ودمجت نظام Auto Multiple Choice ‏(AMC) لتسهيل إعداد الامتحانات على موظفي الكلية.",
+                            "list": [],
+                            "tags": [
+                                "PHP",
+                                "Linux",
+                                "AMC"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

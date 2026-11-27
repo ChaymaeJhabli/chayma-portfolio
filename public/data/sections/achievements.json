@@ -1,0 +1,217 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Achievements",
+                "title_short_nav": "Achievements",
+                "title_long": "{{Achievements}}"
+            },
+            "fr": {
+                "title_short": "Réalisations",
+                "title_short_nav": "Réalisations",
+                "title_long": "{{Réalisations}}"
+            },
+            "ar": {
+                "title_short": "الإنجازات",
+                "title_short_nav": "الإنجازات",
+                "title_long": "{{الإنجازات}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-message",
+                    "locales": {
+                        "en": {
+                            "title": "LLM response quality",
+                            "text": "Adding visual context at Orange Innovation improved LLM response quality by [[25%]]."
+                        },
+                        "fr": {
+                            "title": "Qualité des réponses du LLM",
+                            "text": "L’ajout de contexte visuel chez Orange Innovation a amélioré la qualité des réponses du LLM de [[25 %]]."
+                        },
+                        "ar": {
+                            "title": "جودة إجابات النموذج اللغوي",
+                            "text": "حسّن إدماج السياق البصري في أورنج للابتكار جودة إجابات النموذج اللغوي بنسبة [[٢٥٪]]."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-database",
+                    "locales": {
+                        "en": {
+                            "title": "Database query time",
+                            "text": "Redesigning the OR2S database cut query time by [[93%]]."
+                        },
+                        "fr": {
+                            "title": "Temps de requête",
+                            "text": "La refonte de la base de données de l’OR2S a réduit le temps de requête de [[93 %]]."
+                        },
+                        "ar": {
+                            "title": "زمن الاستعلام",
+                            "text": "قلّلت إعادة تصميم قاعدة بيانات المرصد الإقليمي زمن الاستعلام بنسبة [[٩٣٪]]."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-file-invoice",
+                    "locales": {
+                        "en": {
+                            "title": "Billing efficiency",
+                            "text": "Automating billing reports at Brink’s improved operational efficiency by [[99%]]."
+                        },
+                        "fr": {
+                            "title": "Efficacité de la facturation",
+                            "text": "L’automatisation des rapports de facturation chez Brink’s a amélioré l’efficacité opérationnelle de [[99 %]]."
+                        },
+                        "ar": {
+                            "title": "كفاءة الفوترة",
+                            "text": "حسّنت أتمتة تقارير الفوترة في <bdi>Brink’s</bdi> الكفاءة التشغيلية بنسبة [[٩٩٪]]."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-chart-column",
+                    "locales": {
+                        "en": {
+                            "title": "Dashboard analysis",
+                            "text": "Interactive Power BI dashboards at Brink’s improved analysis effectiveness by [[40%]]."
+                        },
+                        "fr": {
+                            "title": "Analyse avec les tableaux de bord",
+                            "text": "Les tableaux de bord interactifs Power BI chez Brink’s ont amélioré l’efficacité des analyses de [[40 %]]."
+                        },
+                        "ar": {
+                            "title": "التحليل بلوحات المعلومات",
+                            "text": "حسّنت لوحات <bdi>Power BI</bdi> التفاعلية في <bdi>Brink’s</bdi> فعالية التحليل بنسبة [[٤٠٪]]."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "locales": {
+                "en": {
+                    "title": "Certifications"
+                },
+                "fr": {
+                    "title": "Certifications"
+                },
+                "ar": {
+                    "title": "الشهادات"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-certificate",
+                    "locales": {
+                        "en": {
+                            "title": "Digital Transformation",
+                            "text": "University of Virginia"
+                        },
+                        "fr": {
+                            "title": "Transformation numérique",
+                            "text": "Université de Virginie"
+                        },
+                        "ar": {
+                            "title": "التحوّل الرقمي",
+                            "text": "جامعة فيرجينيا"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-certificate",
+                    "locales": {
+                        "en": {
+                            "title": "Neo4j Fundamentals",
+                            "text": "Neo4j"
+                        },
+                        "fr": {
+                            "title": "Fondamentaux de Neo4j",
+                            "text": "Neo4j"
+                        },
+                        "ar": {
+                            "title": "أساسيات Neo4j",
+                            "text": "Neo4j"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-certificate",
+                    "locales": {
+                        "en": {
+                            "title": "Python for Data Science, AI & Development",
+                            "text": "IBM"
+                        },
+                        "fr": {
+                            "title": "Python pour la science des données, l’IA et le développement",
+                            "text": "IBM"
+                        },
+                        "ar": {
+                            "title": "بايثون لعلم البيانات والذكاء الاصطناعي والتطوير",
+                            "text": "IBM"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-certificate",
+                    "locales": {
+                        "en": {
+                            "title": "Learn to Code in Python 3: Beginner to Advanced",
+                            "text": "Udemy"
+                        },
+                        "fr": {
+                            "title": "Programmation en Python 3, du niveau débutant au niveau avancé",
+                            "text": "Udemy"
+                        },
+                        "ar": {
+                            "title": "البرمجة بلغة بايثون 3 من المستوى المبتدئ إلى المتقدّم",
+                            "text": "Udemy"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-certificate",
+                    "locales": {
+                        "en": {
+                            "title": "Quantization in Depth",
+                            "text": "DeepLearning.AI"
+                        },
+                        "fr": {
+                            "title": "Quantification des modèles",
+                            "text": "DeepLearning.AI"
+                        },
+                        "ar": {
+                            "title": "التكميم المتعمّق للنماذج",
+                            "text": "DeepLearning.AI"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
